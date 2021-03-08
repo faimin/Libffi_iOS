@@ -47,6 +47,16 @@
                ReferencedContainer = "container:Libffi_iOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FAFEE86E25F60AAB00093DC7"
+               BuildableName = "LibffiFrameworkTests.xctest"
+               BlueprintName = "LibffiFrameworkTests"
+               ReferencedContainer = "container:Libffi_iOS.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

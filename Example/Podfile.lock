@@ -1,16 +1,3 @@
-PODS:
-  - Libffi_iOS_Framework (0.0.1)
+PODFILE CHECKSUM: 60c3298232d89ddba38f73d1ca614f7492c6917d
 
-DEPENDENCIES:
-  - Libffi_iOS_Framework (from `../`)
-
-EXTERNAL SOURCES:
-  Libffi_iOS_Framework:
-    :path: "../"
-
-SPEC CHECKSUMS:
-  Libffi_iOS_Framework: 3cc4a54bbc563b751d13ca50c353698bd0ccb91d
-
-PODFILE CHECKSUM: 503d97625335f9fb7ba4cc07fecbc91def6bec41
-
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1

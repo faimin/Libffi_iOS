@@ -28,9 +28,11 @@ Pod::Spec.new do |s|
     :tag => s.version.to_s
   }
 
-  s.module_name = s.name
   s.source_files = 'Libffi_iOS_Library/**/*.h'
   s.vendored_libraries = 'Libffi_iOS_Library/*.a'
+  s.module_name = s.name
+  s.module_map = 'Libffi_iOS_Library/Modules/module.modulemap'
+  s.preserve_paths = 'Libffi_iOS_Library/Modules/module.modulemap'
   s.pod_target_xcconfig = {
     'DEFINES_MODULE' => 'YES'
   }
